@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Sua Tela
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only solid>
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content id="page1">
+  <ion-card id="suaTela-card21">
+    <ion-list>
+      <ion-item color="none" on-click="goToGeral()" id="suaTela-list-item8">
+        <ion-icon name="thermometer" item-left></ion-icon>
+        Temperatura Casa
+      </ion-item>
+      <ion-item id="suaTela-list-item-container3">
+        <div id="suaTela-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
+          <p style="margin-top:0px;color:#000000;font-size:20px;">
+            21,5 ºC
+          </p>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+  <ion-card id="suaTela-card23">
+    <ion-list>
+      <ion-item color="none" on-click="goToGeral()" id="suaTela-list-item19">
+        <ion-icon name="key" item-left></ion-icon>
+        Porta Frente
+      </ion-item>
+      <form id="suaTela-form5">
+        <ion-item id="suaTela-toggle3">
+          <ion-label>
+            Destravar/Travar
+          </ion-label>
+          <ion-toggle color="positive" checked="false"></ion-toggle>
+        </ion-item>
+      </form>
+    </ion-list>
+  </ion-card>
+  <ion-card id="suaTela-card25">
+    <ion-list>
+      <ion-item color="none" on-click="goToGeral()" id="suaTela-list-item13">
+        <ion-icon name="videocam" item-left></ion-icon>
+        Câmera Frente
+      </ion-item>
+      <button id="suaTela-button1" ion-button color="light" block on-click="goToCMeraFrente()">
+        Acessar
+      </button>
+    </ion-list>
+  </ion-card>
+  <ion-card id="suaTela-card26">
+    <ion-list>
+      <ion-item color="none" on-click="goToQuarto()" id="suaTela-list-item14">
+        <ion-icon name="bulb" item-left></ion-icon>
+        Lâmpada Quarto
+      </ion-item>
+      <form id="suaTela-form2">
+        <ion-item id="suaTela-toggle1">
+          <ion-label>
+            O/I
+          </ion-label>
+          <ion-toggle color="positive" checked="false"></ion-toggle>
+        </ion-item>
+        <ion-item id="suaTela-range2">
+          <ion-range min="0" max="5" step="1" color="light" value="3">
+            <ion-label range-left>
+              Dimmer
+            </ion-label>
+          </ion-range>
+        </ion-item>
+      </form>
+    </ion-list>
+  </ion-card>
+  <ion-card id="suaTela-card22">
+    <ion-list>
+      <ion-item color="none" on-click="goToSala()" id="suaTela-list-item18">
+        <ion-icon name="film" item-left></ion-icon>
+        TV Sala
+      </ion-item>
+      <form id="suaTela-form4">
+        <ion-item id="suaTela-toggle2">
+          <ion-label>
+            O/I
+          </ion-label>
+          <ion-toggle color="positive" checked="false"></ion-toggle>
+        </ion-item>
+      </form>
+    </ion-list>
+  </ion-card>
+</ion-content>

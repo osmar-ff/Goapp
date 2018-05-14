@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Configurações
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page3">
+  <form id="configuraEs-form13">
+    <ion-item id="configuraEs-toggle4">
+      <ion-label>
+        Notificações Push
+      </ion-label>
+      <ion-toggle color="positive" checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item color="none" id="configuraEs-list-item16">
+      Biometria
+      <ion-icon name="finger-print" item-right></ion-icon>
+    </ion-item>
+    <ion-item color="none" on-click="goToSobre()" id="configuraEs-list-item17">
+      Sobre
+      <ion-icon name="help-circle" item-right></ion-icon>
+    </ion-item>
+    <ion-item color="none" on-click="goToContato()" id="configuraEs-list-item21">
+      Contato
+      <ion-icon name="call" item-right></ion-icon>
+    </ion-item>
+  </form>
+</ion-content>

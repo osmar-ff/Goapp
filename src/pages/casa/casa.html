@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Casa
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only solid>
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <button id="casa-button3" ion-button color="positive" block icon-left on-click="goToGeral()">
+    <ion-icon name="home"></ion-icon>
+    Geral
+  </button>
+  <button id="casa-button2" ion-button outline color="positive" block icon-left style="border-radius:2px 2px 2px 2px;" on-click="goToQuarto()">
+    <ion-icon name="laptop"></ion-icon>
+    Quarto
+  </button>
+  <button id="casa-button4" ion-button color="positive" block icon-left on-click="goToSala()">
+    <ion-icon name="desktop"></ion-icon>
+    Sala
+  </button>
+  <button id="casa-button5" ion-button outline color="positive" block icon-left on-click="goToBanheiro()">
+    <ion-icon name="water"></ion-icon>
+    Banheiro
+  </button>
+  <button id="casa-button6" ion-button color="positive" block icon-left on-click="goToCozinha()">
+    <ion-icon name="basket"></ion-icon>
+    Cozinha
+  </button>
+  <button id="casa-button7" ion-button outline color="dark" block on-click="goToNovoAparelho()">
+    <ion-icon name="add"></ion-icon>
+  </button>
+</ion-content>

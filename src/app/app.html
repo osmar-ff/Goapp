@@ -1,1 +1,32 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21">
+    <ion-list id="menu-list1">
+      <ion-item color="none" menuClose="" on-click="goToPerfil()" id="menu-list-item61">
+        <ion-avatar item-left>
+          <img src="assets/img/QEBo8eDRJWYy6Kxj5i07_space_odyssey.jpg" />
+        </ion-avatar>
+        <h2>
+          David Bowman
+        </h2>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToSuaTela()" id="menu-list-item1">
+        Sua Tela
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCasa()" id="menu-list-item2">
+        Casa
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToConfiguraEs()" id="menu-list-item3">
+        Configurações
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
